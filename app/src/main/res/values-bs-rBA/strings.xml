@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RxDrugs</string>
+    <string name="title_home">Početna</string>
+    <string name="title_dashboard">Komandna tabla</string>
+    <string name="title_notifications">Obavijesti</string>
+</resources>

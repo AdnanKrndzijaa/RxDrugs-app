@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".alldrugs.types.Inhalants">
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/dose_view"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:onClick="onWSClick"
+        android:text="Read more about Inhalants >"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_no_bg" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Inhalants"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Inhalants are common household, industrial and medical products that produce vapours, which some people inhale (breathe in) to make them feel intoxicated or high. There are many different types of inhalants and they all have different risks and effects."
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Examples of inhalants include solvents (liquids that become gas at room temperature), aerosol sprays, gases, nitrites (prescription medicines for chest pain)"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view14"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view16" />
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view17" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view40"
+        app:layout_constraintStart_toEndOf="@+id/view20" />
+
+    <View
+        android:id="@+id/view40"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="10dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view20"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view18" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="onDashClick"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="@+id/view16"
+        app:layout_constraintStart_toStartOf="@+id/view16"
+        app:layout_constraintTop_toTopOf="@+id/view16"
+        app:srcCompat="@drawable/dashboard" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onDeClick"
+        app:layout_constraintBottom_toBottomOf="@+id/view17"
+        app:layout_constraintEnd_toEndOf="@+id/view17"
+        app:layout_constraintStart_toStartOf="@+id/view17"
+        app:layout_constraintTop_toTopOf="@+id/view17"
+        app:srcCompat="@drawable/depressants" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onHaClick"
+        app:layout_constraintBottom_toBottomOf="@+id/view19"
+        app:layout_constraintEnd_toEndOf="@+id/view19"
+        app:layout_constraintStart_toStartOf="@+id/view19"
+        app:layout_constraintTop_toTopOf="@+id/view19"
+        app:srcCompat="@drawable/hallucinogens" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view40"
+        app:layout_constraintEnd_toEndOf="@+id/view40"
+        app:layout_constraintStart_toStartOf="@+id/view40"
+        app:layout_constraintTop_toTopOf="@+id/view40"
+        app:srcCompat="@drawable/inhalants_red" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onOpClick"
+        app:layout_constraintBottom_toBottomOf="@+id/view20"
+        app:layout_constraintEnd_toEndOf="@+id/view20"
+        app:layout_constraintStart_toStartOf="@+id/view20"
+        app:layout_constraintTop_toTopOf="@+id/view20"
+        app:srcCompat="@drawable/opioids" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onStClick"
+        app:layout_constraintBottom_toBottomOf="@+id/view18"
+        app:layout_constraintEnd_toEndOf="@+id/view18"
+        app:layout_constraintStart_toStartOf="@+id/view18"
+        app:layout_constraintTop_toTopOf="@+id/view18"
+        app:srcCompat="@drawable/stimulants" />
+
+    <View
+        android:id="@+id/view41"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#8A8989"
+        android:backgroundTint="#8A8989"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view16"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view42"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#8A8989"
+        android:backgroundTint="#8A8989"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view17"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view43"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#8A8989"
+        android:backgroundTint="#8A8989"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view18"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view44"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#8A8989"
+        android:backgroundTint="#8A8989"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view19"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+    <View
+        android:id="@+id/view45"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#8A8989"
+        android:backgroundTint="#8A8989"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view19"
+        app:layout_constraintTop_toTopOf="@+id/view14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

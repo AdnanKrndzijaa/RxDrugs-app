@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".emergency.Emergency">
+
+    <View
+        android:id="@+id/view33"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#E1E1E1"
+        android:backgroundTint="#E1E1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view32" />
+
+    <View
+        android:id="@+id/view36"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#E1E1E1"
+        android:backgroundTint="#E1E1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view34" />
+
+    <View
+        android:id="@+id/view38"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#E1E1E1"
+        android:backgroundTint="#E1E1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view37" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Emergency"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_no_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Are you in trouble and need help? Please call one of the numbers below and ask for help from experts."
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Opt for preventive care, if you have problems with the use of narcotics or know people who need help, contact and visit the office of the organization BiramoOporavak.com."
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view33" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Numbers of all emergency services, epidemiological services, 24-hour pharmacies and other relevant institutions in Sarajevo during the COVID-19 virus pandemic."
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view36" />
+
+    <View
+        android:id="@+id/view30"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <View
+        android:id="@+id/view34"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view35" />
+
+    <View
+        android:id="@+id/view35"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <View
+        android:id="@+id/view31"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view30" />
+
+    <View
+        android:id="@+id/view32"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view31" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onPoliceDeptClick"
+        android:text="BiH Police Department Number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view30"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/view30" />
+
+    <View
+        android:id="@+id/view37"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#40000000"
+        android:backgroundTint="#40000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onEmailClick"
+        android:text="NVO PROSLAVI OPORAVAK                                  udruga@proslavi-oporavak.ba"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/view35" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onUPNClick"
+        android:text="Useful Phone Numbers for Bosnia and Herzegovina, and Sarajevo"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/view37"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/view37"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onPhoneClick"
+        android:text="NVO PROSLAVI OPORAVAK                                  +387 33 201 761"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/view34"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/view34"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onFireDeptClick"
+        android:text="BiH Fire Department Number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view31"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/view31" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:onClick="onAmbulanceClick"
+        android:text="BiH Ambulance Number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view32"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/view32" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center|center_vertical"
+        android:onClick="onPoliceDeptClick"
+        android:text="122"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view30"
+        app:layout_constraintEnd_toEndOf="@+id/view30"
+        app:layout_constraintTop_toTopOf="@+id/view30" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:onClick="onFireDeptClick"
+        android:text="123"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view31"
+        app:layout_constraintEnd_toEndOf="@+id/view31"
+        app:layout_constraintTop_toTopOf="@+id/view31" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:onClick="onAmbulanceClick"
+        android:text="124"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view32"
+        app:layout_constraintEnd_toEndOf="@+id/view32"
+        app:layout_constraintTop_toTopOf="@+id/view32" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="onPoliceDeptClick"
+        android:src="@drawable/police"
+        app:layout_constraintBottom_toBottomOf="@+id/view30"
+        app:layout_constraintStart_toStartOf="@+id/view30"
+        app:layout_constraintTop_toTopOf="@+id/view30" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="onAmbulanceClick"
+        android:src="@drawable/ambulance"
+        app:layout_constraintBottom_toBottomOf="@+id/view32"
+        app:layout_constraintStart_toStartOf="@+id/view32"
+        app:layout_constraintTop_toTopOf="@+id/view32" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="onFireDeptClick"
+        android:src="@drawable/fire_dept"
+        app:layout_constraintBottom_toBottomOf="@+id/view31"
+        app:layout_constraintStart_toStartOf="@+id/view31"
+        app:layout_constraintTop_toTopOf="@+id/view31" />
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/dose_view"
+        android:backgroundTint="@color/black"
+        android:clickable="true"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="@+id/view35"
+        app:layout_constraintStart_toStartOf="@+id/view35"
+        app:layout_constraintTop_toTopOf="@+id/view35" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="@+id/view34"
+        app:layout_constraintStart_toStartOf="@+id/view34"
+        app:layout_constraintTop_toTopOf="@+id/view34" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:src="@drawable/information"
+        app:layout_constraintBottom_toBottomOf="@+id/view37"
+        app:layout_constraintStart_toStartOf="@+id/view37"
+        app:layout_constraintTop_toTopOf="@+id/view37" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
